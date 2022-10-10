@@ -1,0 +1,44 @@
+body{
+	background-color: #333;
+	color: #fff;
+	max-width: 100vw;
+}
+
+.navbar{
+	border-bottom: #c0392b 3px solid; 
+	opacity: .7;
+}
+
+#home-section{
+	background: url('img/bg.jpg') no-repeat;
+	min-height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.home-inner{
+	padding: 150px;
+}
+
+.dark-overlay{
+	background-color: rgba(0,0,0,.5);
+	width: 100%;
+	min-height: 100%;
+}
+
+.image{
+	width: 100%;
+	height: auto;
+}
+
+
+@media (max-width:  572px){
+	.home-inner{
+		padding: 70px 50px; 
+	}
+
+	.image{
+		width: calc(100vw - 20px);
+		height: auto;
+	}
+}
